@@ -1,6 +1,5 @@
 package taokdao.plugins.lua.doc;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.view.KeyEvent;
@@ -15,7 +14,7 @@ import com.just.agentweb.AgentWeb;
 
 import java.io.File;
 
-import taokdao.plugins.Constant;
+import taokdao.plugins.setup.Constant;
 
 
 public class LuaDocActivity extends AppCompatActivity implements MenuItem.OnMenuItemClickListener {
@@ -62,7 +61,7 @@ public class LuaDocActivity extends AppCompatActivity implements MenuItem.OnMenu
 //        } else {
         if ((System.currentTimeMillis() - mTouchTime) > 2000) {
             mTouchTime = System.currentTimeMillis();
-            Toast.makeText(this, taokdao.plugins.R.string.pressagaintoexit, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.pressagaintoexit, Toast.LENGTH_LONG).show();
         } else {
             mTouchTime = 0;
             finish();
