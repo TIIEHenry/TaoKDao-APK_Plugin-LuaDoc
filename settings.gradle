@@ -1,0 +1,5 @@
+rootProject.name = 'LuaDoc'
+include ':app'
+
+includeBuild '../TaoKDao-API'
+//includeBuild '../TaoKDao-Plugin-Setup'
