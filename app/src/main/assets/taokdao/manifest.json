@@ -1,23 +1,27 @@
 {
   "id": "taokdao.plugins.lua.doc",
   "type": "TYPE_COMMON",
-
-  "api":"1.0",
+  "api": "1.0",
   "version": {
     "code": 20200728,
     "name": "2020.07.28",
     "downgrade": true
   },
-  "information": {
-    "author": "TIIEHenry",
-    "label": "Lua手册",
-    "icon": "apk",
-    "description": "Lua5.3中文版参考手册",
-    "tags": ["Lua","LuaDoc"],
-    "readme": "README.md"
-  },
-  "languages": [
-    "zh-CN"
+  "information": [
+    {
+      "languages": [
+        "default"
+      ],
+      "author": "TIIEHenry",
+      "label": "Lua手册",
+      "icon": "apk",
+      "description": "Lua5.3中文版参考手册",
+      "tags": [
+        "Lua",
+        "LuaDoc"
+      ],
+      "readme": "README.md"
+    }
   ],
   "visibility": {
     "type": "1",
@@ -25,7 +29,8 @@
       "taokdao.contents.codeeditor"
     ],
     "suffixes": [
-      "lua","aly"
+      "lua",
+      "aly"
     ]
   },
   "engine": {
